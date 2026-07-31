@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Menu</title>
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+       <style>
+            .customNav{
+                background-color: rgb(255, 192, 203);
+                color: black;
+                height: 50px;
+                width: 100%;
+                
+            }
+            .customimg{
+                height: 50px;
+                width: 50px;
+            }
+            .customNavList{
+                gap: 20px;
+            }
+            .customNavList:link{
+                color: solid rgb(133, 6, 6);
+            }
+            .customNavList:hover{
+                border-bottom: 4px solid rgb(133, 6, 6);
+            }
+
+        #menu{
+    background:#fff8f3;
+}
+
+.card{
+    border-radius:15px;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+.card h3{
+    color:#ff6b6b;
+    font-weight:bold;
+}
+
+.btn-warning{
+    font-weight:bold;
+    border-radius:30px;
+}
+       </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg  customNav">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+ <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ04uQ1aF6xYUsHuNcE9cojuqtJguNcmRAJ3t7toEDmXQ&s=10"class="rounded-circle customimg" >
+
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ">
+        <li class="nav-item customNavList">
+          <a class="nav-link active" aria-current="page" href="./ice.html">Home</a>
+        </li>
+        <li class="nav-item customNavList">
+          <a class="nav-link" href="./flover.html">Flavors</a>
+        </li>
+        <li class="nav-item customNavList">
+          <a class="nav-link" href="./menu.html">Menu</a>
+        </li>
+        <li class="nav-item customNavList">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item customNavList">
+          <a class="nav-link" href="#">contact</a>
+        </li>
+        </ul>
+
+ <div class="d-flex align-items-center ms-auto">
+    <i class="fa-solid fa-magnifying-glass me-3"></i>
+        
+          <i class="fa-solid fa-bag-shopping me-3"></i>
+      <button class="btn btn-outline-success ms-3 " type="submit">Login</button>
+         </div>
+         </div>
+    </div>
+  </div>
+</nav>
+
+    <section class="container py-5 mt-3" id="menu">
+
+    <div class="text-center mb-5">
+        <h1 class="fw-bold">Our Menu</h1>
+        <p class="text-muted">Choose your favorite frozen treat!</p>
+    </div>
+
+    <div class="row g-4">
+
+        <!-- Ice Cream Cups -->
+        <div class="col-lg-4 col-md-6">
+            <div class="card h-100 shadow border-0">
+                <div class="card-body text-center">
+                    <h3>Ice Cream Cups</h3>
+                    <hr>
+
+                    <div class="d-flex justify-content-between">
+                        <span>Small Cup</span>
+                        <strong>₹80</strong>
+                    </div>
+
+                    <div class="d-flex justify-content-between mt-2">
+                        <span>Medium Cup</span>
+                        <strong>₹120</strong>
+                    </div>
+
+                    <div class="d-flex justify-content-between mt-2">
+                        <span>Large Cup</span>
+                        <strong>₹160</strong>
+                    </div>
+
+                    <button class="btn btn-warning mt-4 w-100">
+                        Order Now
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Cones -->
+        <div class="col-lg-4 col-md-6">
+            <div class="card h-100 shadow border-0">
+                <div class="card-body text-center">
+                    <h3>Cones</h3>
+                    <hr>
+
+                    <div class="d-flex justify-content-between">
+                        <span>Regular Cone</span>
+                        <strong>₹90</strong>
+                    </div>
+
+                    <div class="d-flex justify-content-between mt-2">
+                        <span>Waffle Cone</span>
+                        <strong>₹140</strong>
+                    </div>
+
+                    <div class="d-flex justify-content-between mt-2">
+                        <span>Chocolate Dipped Cone</span>
+                        <strong>₹180</strong>
+                    </div>
+
+                    <button class="btn btn-warning mt-4 w-100">
+                        Order Now
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sundaes -->
+        <div class="col-lg-4 col-md-6">
+            <div class="card h-100 shadow border-0">
+                <div class="card-body text-center">
+                    <h3>Sundaes</h3>
+                    <hr>
+
+                    <div class="d-flex justify-content-between">
+                        <span>Chocolate Sundae</span>
+                        <strong>₹180</strong>
+                    </div>
+
+                    <div class="d-flex justify-content-between mt-2">
+                        <span>Caramel Sundae</span>
+                        <strong>₹190</strong>
+                    </div>
+
+                    <div class="d-flex justify-content-between mt-2">
+                        <span>Fruit Sundae</span>
+                        <strong>₹200</strong>
+                    </div>
+
+                    <button class="btn btn-warning mt-4 w-100">
+                        Order Now
+                    </button>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+</body>
+</html>
